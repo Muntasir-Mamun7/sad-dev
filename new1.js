@@ -4,3 +4,7 @@ let age = 25;
 let greeting = `Hello, my name is ${name} and I am ${age} years old.`;
 console.log(greeting);
 console.log("Nice to meet you!");
+console.log("I enjoy the following hobbies:");
+hobbies.forEach((hobby, index) => {
+    console.log(`${index + 1}. ${hobby}`);
+});
